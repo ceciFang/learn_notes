@@ -30,6 +30,7 @@
       例子：https://github.com/chunqiuyiyu/learn-javascript
 
 * 提交本地文件  
+ `mkdir learn_note` // 创建本地文件夹 => 进入本地文件夹再执行下一步  
 `echo "# learn_notes" >> README.md` // 创建内容为# learn_notes"的README.md文件  
 `git init` // 初始化本地仓库  
 `git add README.md` // 添加文件  
