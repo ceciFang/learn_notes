@@ -2,7 +2,7 @@
 **1.配置Git**
  * 首先再本地创建ssh key  
  
- `$ ssh-keygen -t rsa -C "your_email@youremail.com" ` 
+ `$ ssh-keygen -t rsa -C "your_email@youremail.com" `  
  （后面的your_email@youremail.com改为你在github上注册的邮箱，之后会要求确认路径和输入密码，我们这使用默认的一路回车就行。)
  
  * ~/下生成.ssh文件夹，打开id_rsa.pub，复制里面的key。
@@ -25,9 +25,9 @@
 `echo "# learn_notes" >> README.md` // 创建内容为# learn_notes"的README.md文件  
 `git init` // 初始化本地仓库  
 `git add README.md` // 添加文件  
-`git commit -m "first commit"` //提交说明  
+`git commit -m "first commit"` // 提交说明  
 `git remote add origin https://github.com/ceciFang/learn_notes.git` // 连接远程仓库  
-`git push -u origin master // 提交的master 分支`  
+`git push -u origin master` // 提交的master 分支
 ***
 
 
