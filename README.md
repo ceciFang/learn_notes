@@ -22,12 +22,12 @@
 （后面的yourName和yourRepo表示你再github的用户名和刚才新建的仓库，加完之后进入.git，打开config，这里会多出一个remote "origin"内容，这就是刚才添加的远程地址，也可以直接修改config来配置远程地址。）
 
 * 提交本地文件  
-`echo "# learn_notes" >> README.md // 创建内容为# learn_notes"的README.md文件  
-git init // 初始化本地仓库  
-git add README.md // 添加文件  
-git commit -m "first commit" //提交说明  
-git remote add origin https://github.com/ceciFang/learn_notes.git // 连接远程仓库  
-git push -u origin master // 提交的master 分支`  
+`echo "# learn_notes" >> README.md` // 创建内容为# learn_notes"的README.md文件  
+`git init` // 初始化本地仓库  
+`git add README.md` // 添加文件  
+`git commit -m "first commit"` //提交说明  
+`git remote add origin https://github.com/ceciFang/learn_notes.git` // 连接远程仓库  
+`git push -u origin master // 提交的master 分支`  
 ***
 
 
