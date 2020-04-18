@@ -13,4 +13,4 @@
   * 结合了inline与block的一些特点，结合了上述inline的第1个特点和block的第2,3个特点.
   * 用通俗的话讲，就是不独占一行的块级元素。
   
-[转载](http://www.cnblogs.com/Ry-yuan/p/6848197.html)
+[@转载文章地址](http://www.cnblogs.com/Ry-yuan/p/6848197.html):http://www.cnblogs.com/Ry-yuan/p/6848197.html
