@@ -21,6 +21,13 @@
 `$ git remote add origin git@github.com:yourName/yourRepo.git`  
 （后面的yourName和yourRepo表示你再github的用户名和刚才新建的仓库，加完之后进入.git，打开config，这里会多出一个remote "origin"内容，这就是刚才添加的远程地址，也可以直接修改config来配置远程地址。）
 
+  - 查看/修改github地址方法  
+    > 默认是github的地址加上你的用户名  
+      比如我的地址是https://github.com/chunqiuyiyu，其中chunqiuyiyu就是我的用户名
+    > 打开github后，在右上角头像上点击会有“Your Profile”（如果你已经登录），点击进入的网页链接就是你的github地址，修改地址要进入“settings”修改用户名
+    > 项目地址是github地址加上项目名称，  
+      例子：https://github.com/chunqiuyiyu/learn-javascript
+
 * 提交本地文件  
 `echo "# learn_notes" >> README.md` // 创建内容为# learn_notes"的README.md文件  
 `git init` // 初始化本地仓库  
