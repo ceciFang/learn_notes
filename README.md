@@ -1,5 +1,5 @@
 ## 创建远程仓库
-1.配置Git
+1.配置Git  
   首先再本地创建ssh key
   
   $ ssh-keygen -t rsa -C "your_email@youremail.com"
