@@ -29,7 +29,7 @@
     > 项目地址是github地址加上项目名称，  
       例子：https://github.com/chunqiuyiyu/learn-javascript
 
-* 提交本地文件  
+* 第一次提交本地文件  
  `mkdir learn_note` // 创建本地文件夹 => 进入本地文件夹再执行下一步  
 `echo "# learn_notes" >> README.md` // 创建内容为# learn_notes"的README.md文件  
 `git init` // 初始化本地仓库  
@@ -38,4 +38,10 @@
 `git remote add origin https://github.com/ceciFang/learn_notes.git` // 连接远程仓库  
 `git push -u origin master` // 提交的master 分支
 
-
+**3.远程仓库更新**
+git add . // 提交所有文件
+`git commit -m "xxx commit"` // 提交说明
+`git remote add origin https://github.com/ceciFang/learn_notes.git` // 连接远程仓库  
+`git pull --rebase origin master` // 本地仓库升级到最新版本
+> 不能直接git pull
+`git push -u origin master` // 提交的master 分支
