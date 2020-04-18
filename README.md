@@ -44,5 +44,6 @@
 `git commit -m "xxx commit"` // 提交说明  
 `git remote add origin https://github.com/ceciFang/learn_notes.git` // 连接远程仓库  
 `git pull --rebase origin master` // 本地仓库升级到最新版本  
-> 不能直接git pull  
+> 不能直接git pull
+  
 `git push -u origin master` // 提交的master 分支
