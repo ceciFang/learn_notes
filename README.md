@@ -10,9 +10,10 @@
  * 验证是否连接成功  
  ` $ ssh -T git@github.com `  
  (如果是第一次的会提示是否continue，输入yes就会看到：You've successfully authenticated, but GitHub does not provide shell access 。这就表示已成功连上github。)
- 
-**2.连接本地仓库跟远程仓库**   
+
 ***
+
+**2.连接本地仓库跟远程仓库**   
 * 设置username/eamil  
  `$ git config --global user.name "your name"`   
  `$ git config --global user.email "your_email@youremail.com"` 
@@ -24,7 +25,7 @@
   - 查看/修改github地址方法  
     > 默认是github的地址加上你的用户名  
       比如我的地址是https://github.com/chunqiuyiyu，其中chunqiuyiyu就是我的用户名
-    > 打开github后，在右上角头像上点击会有“Your Profile”（如果你已经登录），点击进入的网页链接就是你的github地址，修改地址要进入“settings”修改用户名
+      打开github后，在右上角头像上点击会有“Your Profile”（如果你已经登录），点击进入的网页链接就是你的github地址，修改地址要进入“settings”修改用户名
     > 项目地址是github地址加上项目名称，  
       例子：https://github.com/chunqiuyiyu/learn-javascript
 
@@ -35,6 +36,5 @@
 `git commit -m "first commit"` // 提交说明  
 `git remote add origin https://github.com/ceciFang/learn_notes.git` // 连接远程仓库  
 `git push -u origin master` // 提交的master 分支
-***
 
 
