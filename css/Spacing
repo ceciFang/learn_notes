@@ -1,0 +1,9 @@
+去除inline-block元素间距的方法：
+
+1.去掉html元素之间的空格，直接写在一行。
+
+2.使用margin负值，通常可设置为margin：-4px
+
+3.使用font-size:0。父元素设置为font-size:0，再把inline-block元素重新设置font-size；
+
+4.使用float，不用inline-block。
